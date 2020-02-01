@@ -48,6 +48,7 @@ export default function Dashboard() {
       <main className={classes.content}>
         <Container maxWidth="lg" className={classes.container}>
           <Paper className={fixedHeightPaper} square={true}>
+            test
             <Chart data={data}/>
           </Paper>
         </Container>
